@@ -30,8 +30,8 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={location_icon} alt="" />{" "}
               <p>
-                140, Soi Sihaburanukit 2, Road Sihaburanukit,
-                Subdistrict Minburi, District Minburi, Bangkok 10510
+                140, Soi Sihaburanukit 2, Road Sihaburanukit, Subdistrict
+                Minburi, District Minburi, Bangkok 10510
               </p>
             </div>
           </div>
