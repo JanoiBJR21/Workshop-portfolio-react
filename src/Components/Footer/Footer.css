@@ -58,6 +58,35 @@
     gap: 50px;
     margin-bottom: 50px;
 }
+@media(max-width:1024px){
+    .footer{
+        margin: 50px 20px;
+    }
+    .footer-top{
+        gap: 15px;
+    }
+    .footer-top-left{
+        max-width: 500px;
+    }
+    .footer-top-left p{
+        font-size: 18px;
+    }
+    .footer-top-right{
+        max-width: 500px;
+        gap: 20px;
+    }
+    .footer-email-input{
+        gap: 10px;
+        padding: 15px 20px;
+        border-radius: 50px;
+        background: #32323b;
+        padding-right: 20px;
+    }
+    .footer-subscribe{
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+}
 @media(max-width:768px){
     .footer{
         margin: 50px 70px;

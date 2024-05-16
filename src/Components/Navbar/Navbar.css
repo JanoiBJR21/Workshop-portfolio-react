@@ -2,7 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 0rem;
     margin: 20px 170px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    -webkit-backdrop-filter: blur(75px);
+    backdrop-filter: blur(75px);
 }
 .nav-menu{
     display: flex;
@@ -41,6 +47,14 @@
 }
 .nav-mob-open{
     display: none;
+}
+@media(max-width:1024px){
+    .navbar{
+        margin: 20px 20px;
+    }
+    .nav-menu{
+        gap: 40px;
+    }
 }
 @media(max-width:768px){
     .navbar{

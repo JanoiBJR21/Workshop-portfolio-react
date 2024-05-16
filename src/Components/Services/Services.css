@@ -67,6 +67,26 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+@media(max-width:1024px){
+    .services{
+        gap: 70px;
+        margin: 20px 20px;
+    }
+    .services-format{
+        gap: 20px;
+        padding: 10px;
+    }
+    .services-format h2{
+        font-size: 34px;
+    }
+    .sevices-readmore{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
 @media(max-width:768px){
     .services{
         align-items: start;

@@ -53,10 +53,27 @@
 .hero-resume:hover{
     border-color: #b415ff;
 }
+@media(max-width:1024px){
+    .hero img{
+        margin-top: 125px;
+    }
+    .hero h1{
+        margin-top: 50px;
+        width: 75%;
+        font-size: 50px;
+    }
+    .hero p{
+        width: 70%;
+        font-size: 22px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    
+}
 @media(max-width:768px){
     .hero img{
         margin-top: 120px;
-        width: 260px;
+        width: 280px;
     }
     .hero h1{
         margin-top: 50px;
